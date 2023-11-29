@@ -1,0 +1,27 @@
+/* transparent background  */
+.transparent {
+    /* background: none; */
+    min-height: 450px;
+    padding: 2em 0;
+    text-align: center;
+  }
+  #cardsbg{
+    background: url("images/cards.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+/* navbar */
+.navbar{
+    margin-left: 17%;
+    background-repeat: no-repeat;
+    position: sticky;
+    filter: none;
+}
+.navbar.scrolled {
+    background-image: none;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    filter: none;
+    margin-left: 0%;
+    padding-left: 17%;
+}
